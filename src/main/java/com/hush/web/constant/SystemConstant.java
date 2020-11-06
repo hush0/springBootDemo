@@ -14,11 +14,11 @@ public interface SystemConstant {
 
     Long DAY_LOCK_TIME = 86400L;
 
-    String RULR_LOCK_NAME = "lock::dem:rule";
+    String RULR_LOCK_NAME = "lock::hush:rule";
 
-    String RULR_ITEM_LOCK_NAME = "lock::dem:ruleItem";
+    String RULR_ITEM_LOCK_NAME = "lock::hush:ruleItem";
 
-    String RULR_TRAFFIC_LOCK_NAME = "lock::dem:ruleTraffic";
+    String RULR_TRAFFIC_LOCK_NAME = "lock::hush:ruleTraffic";
 
     /**
      * security角色权限前缀

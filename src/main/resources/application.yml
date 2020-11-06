@@ -4,9 +4,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://10.16.39.93:3306/decontroler_dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
-    username: ads
-    password: Welcome2sohu!
+    url: jdbc:mysql://10.16.39.9:3306/decontroler_dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+    username: test
+    password: test123
 
 server:
   servlet:
