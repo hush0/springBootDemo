@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.sohu.authority.mybatis.mapper.UserRoleDAO">
+<mapper namespace="com.hush.web.mybatis.mapper.UserRoleDAO">
   <resultMap id="BaseResultMap" type="com.hush.web.mybatis.model.UserRole">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="role_id" jdbcType="TINYINT" property="roleId" />

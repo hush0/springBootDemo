@@ -27,17 +27,12 @@ import java.util.concurrent.TimeUnit;
 public class UserRoleService {
 
 
-
     @Autowired
     private UserRoleDAO userRoleDAO;
 
 
     public UserRole selectByPrimaryKey(Integer id) {
         return userRoleDAO.selectByPrimaryKey(id);
-    }
-
-    public List<UserRole> selectByUserEmail(String email){
-        return userRoleDAO.selectByUserEmail(email);
     }
 
     public void insertUserRole(UserRoleAddVO userRoleAddVO) {
